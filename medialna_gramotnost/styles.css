@@ -70,8 +70,8 @@ section {
     position: relative;
     left: 0;
     top: 0;
-    height: 10rem;
-    width: auto;
+    height: 25rem;
+    width: 20rem;
 }
 
 #arm > img {
