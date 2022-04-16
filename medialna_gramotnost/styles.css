@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+section {
+    min-height: 50rem;
+}
+
+#firstSeparator {
+  clip-path: url(#firstSvg);
+  height: 15rem;
+  margin-top: -15rem;
+}
+
+#secondSeparator {
+  clip-path: url(#secondSvg);
+  height: 15rem;
+  margin-bottom: -15rem;
+}
+
+#thirdSeparator {
+  clip-path: url(#thirdSvg);
+  height: 10rem;
+  margin-top: -10rem;
+  margin-bottom: -1px;
+}
+
+#fourthSeparator {
+  clip-path: url(#fourthSvg);
+  height: 5rem;
+  margin-top: -px;
+  margin-bottom: -5rem;
+}
+
+#flying-logo {
+    clip-path: url(#menuSvg);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 15rem;
+    height: 15rem;
+    backdrop-filter: blur(4px);
+    /* backdrop-filter: brightness(150%); */
+    /* background-color: transparent; */
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index:1
+}
+
+.bg-green {
+  background-color: #d7e6cf;
+}
+
+.bg-light-green {
+  background-color: #e3f2da;
+}
+
+.bg-dark-green {
+  background-color: #6d8f57;
+}
+
+.five-rem {
+    min-height: 10rem;
+}
