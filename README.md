@@ -1,1 +1,1 @@
-### This repository provides just standalone web projects that I was working on
+### Static webpage can be found [here](https://ondrejpontes.github.io/).
